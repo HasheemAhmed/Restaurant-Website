@@ -27,7 +27,3 @@ Welcome to the **Gourmet Delight** restaurant website project. This is a simple,
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to modify this `README.md` file as per your specific needs, and include any additional information you think is necessary.
