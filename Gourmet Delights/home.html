@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Delights</title>
+    <link rel="stylesheet" href="homes.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="side-logo"><img src="logo.png"></div>
+        <ul class="text">
+            <li><a href="home.html">Home</a></li>
+            <li class="menu">
+                <a href="#menu-section">Menu</a>
+                <div class="submenu">
+                    <ul>
+                        <li><a href="#">Fast Food</a></li>
+                        <li><a href="#">Sweets</a></li>
+                        <li><a href="#">Drinks</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#about-us">About</a></li>
+            <li><a href="#contact-section" style="border-bottom: none;">Contact</a></li>
+            
+        </ul>
+        <div class="login-text"><a href="signup.html" target="_blank">Login <br> Sign up</a></div>
+    </div>
+    <div class="main-content">
+        <section class="banner">
+            <div class="trans">
+                <p>Welcome to <br>Gourmet Delights !</p>
+            </div>
+        </section>
+        <section class="aboutus" id = "about-us">
+            <div class="about-trans">
+                <div class="about-text">About Us</div>
+                <div class="description">Welcome to Gourmet Delights, where every bite is a journey into the world of
+                    exquisite flavors and culinary craftsmanship. Our passion for fine dining drives us to create dishes
+                    that are not only delicious but also a feast for the senses</div>
+                <button class="read-more">Read more</button>
+            </div>
+        </section>
+        <section class = "menu-section" id = "menu-section">
+            <div style = "text-align: center;"><p >Menu</p></div>
+            <div class = "fooditems">
+                <div><img src = "burger.jpg"></div>
+                <div class = "bold-text">Burger</div>
+                <div>Zinger Burger + Drink</div>
+                <div class = "bold-text">Rs. 1000</div>
+            </div>
+            <div class = "fooditems">
+                <div><img src = "fries.jpg"></div>
+                <div class = "bold-text">Fries</div>
+                <div>Fries + Drink</div>
+                <div class = "bold-text">Rs. 300</div>
+            </div>
+            <div class = "fooditems">
+                <div><img src = "shawarma.jpg"></div>
+                <div class = "bold-text">Shawarma</div>
+                <div>Shawarma + Ketchup</div>
+                <div class = "bold-text">Rs. 500</div>
+            </div>
+            <div class = "fooditems">
+                <div><img src = "chicken.jpg"></div>
+                <div class = "bold-text">Chicken</div>
+                <div>10 pcs Fried Chicken</div>
+                <div class = "bold-text">Rs. 1000</div>
+            </div>
+            <div class = "fooditems">
+                <div><img src = "pizza.jpg"></div>
+                <div class = "bold-text">Pizza</div>
+                <div>Large Supreme Pizza</div>
+                <div class = "bold-text">Rs. 1500</div>
+            </div>
+            <div class = "fooditems">
+                <div><img src = "pasta.jpg"></div>
+                <div class = "bold-text">Pasta</div>
+                <div>Pasta + Drink</div>
+                <div class = "bold-text">Rs. 500</div>
+            </div>
+        </section>
+        <section class="contact-section" id = "contact-section">
+            <div class = "form-div">
+                <div style = "text-align: center;"><p >Contact Us</p></div>
+                <form>
+                    <label for = "name">Name :</label>
+                    <input type = "text" id = "name" name = "username" placeholder="Enter the name" class="input-size">
+                    <label for = "email">Email :</label>
+                    <input type = "email" id = "email" name = "email" placeholder="Enter the Email" class="input-size">
+                    <label for = "subject">Subject :</label>
+                    <input type = "checkbox" id = "subjct" name = "subject" value = "complain" >Complain
+                    <input type = "checkbox" id = "subjct" name = "subject" value = "feedback" >Feedback
+                    <label for = "message" >Message :</label>
+                    <textarea rows = "8" cols = "60"  placeholder="Enter the Message" id = "Message"></textarea>
+                </form>
+            </div>
+        </section>
+        <section class="info-section">
+            <div style = "text-align: center;"><pre>Info</p></pre>
+            <div class = "details">
+                <p><img src = "email.png">gourmetdelights@gmail.com</p>
+                <p><img src = "call.png">+92 303 000 5454</p>
+                <p><img src = "location.png">123 Culinary Avenue, Flavor Town, CA 90210</p>
+            </div>
+        </section>
+        <footer class="foot">
+            <div class="footer">
+                <div class="social">
+                    <ul>
+                        <li><img src = "face.png"><a href = "#" >Facebook</a></li>
+                        <li><img src = "insta.png"><a href = "#" >Instagram</a></li>
+                        <li><img src = "x.png"><a href = "#" >X</a></li>
+                    </ul>
+                </div>
+
+                <div class="items">
+                    <ul>
+                        <li><a href = "#contact-section" >Contact</a></li>
+                        <li><a href = "#" >About</a></li>
+                        <li><a href = "#menu-section" >Menu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "copyright">
+                <p>© 2024 Gourmet Delights. All Rights Reserved.</p>
+                <p >Made by Hasheem Ahmed</p> 
+            </div>
+            
+        </footer>
+    </div>
+</body>
+
+</html>
